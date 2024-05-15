@@ -1,0 +1,56 @@
+body {
+    background-image: url("./plants.jpeg");
+    background-size: 50%;
+}
+#login-box {
+    margin:180px auto;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    padding:40px 30px;
+    border:3px solid #00f249;
+    width:400px;
+    height:400px;
+    filter: drop-shadow(0px 0px 10px rgba(0,0,0,.5));
+}
+#login-boxTitle{
+    font-weight: bold;
+    font-size: 50px;
+    padding: 5px;
+    background: linear-gradient(to right, rgb(10, 153, 0), rgba(34, 255, 0, 0.5));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.login-form label{
+    font-size: 20px;
+    margin: 5px;
+}
+#id-rem{
+    margin-top: 10px;
+}
+#btn-login{
+    margin-top: 20px;
+}
+#btn-login button{
+    width: 340px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 8%;
+}
+#log-img img{
+    width: 150px;
+    height: 150px;
+}
+#log-img p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+#btn-logout{
+    margin-top: 20px;
+}
+#btn-logout button{
+    width: 340px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 8%;
+    
+}

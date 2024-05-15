@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+	
+</head>
+
+<body>
+	<table>
+		<tr>
+			<td>제목</td>
+			<td>내용</td>
+			<td>글쓴이</td>
+		</tr>
+		
+	
+	<tbody 	th:each="list : ${tableList}">
+		<tr>
+			<td><span th:text="${list.userName}"></span></td>
+			<td><span th:text="${list.userName}"></span></td>
+			<td><span th:text="${list.userAge}"></span></td>
+			<!--<td><span th:text="${list.id}"></span></td>-->
+		</tr>
+	</tbody>
+</table>
+	
+	<a href="Logout">로그아웃</a>
+	<a href="/newWrite">글쓰기</a>
+</body>
